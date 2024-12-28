@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 975375574619363947}
   - component: {fileID: 3462780148978345129}
   m_Layer: 6
-  m_Name: Medusa
+  m_Name: SerpentFly
   m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: -1379973632, guid: 531e0d30ae7974ca28bd86c746812093, type: 3}
+  m_Sprite: {fileID: -349184658, guid: 5f63d844dab744257977c6f3816e5fbe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -429,7 +429,7 @@ Animator:
   m_GameObject: {fileID: 8609092479553512321}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cd0c5b518b15d4e9a86f7bcec933c353, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2863aecc94befa34fa471c0320c2e10a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -515,10 +515,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    id: 15
+    id: 13
     monsterId: 0
     currentLevel: 0
-    poolTag: Medusa
+    poolTag: SerpentFly
     currentFatigue: 0
     fatigue: 0
     minFearInflicted: 0
@@ -528,7 +528,7 @@ MonoBehaviour:
     humanScaringRange: 0
     walkSpeed: 0
     requiredCoins: 0
-    maxLevel: 3
+    maxLevel: 2
     monsterType: 2
     summonerId: 0
   _fatigueGauge: {fileID: 0}
