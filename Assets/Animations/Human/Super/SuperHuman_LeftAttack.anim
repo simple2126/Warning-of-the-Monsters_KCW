@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MysticHuman_SetFormation
+  m_Name: SuperHuman_LeftAttack
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: 4cea3ad78fc8bd44998000579bef2649, type: 3}
-    - time: 0.38333333
-      value: {fileID: 21300000, guid: 53255ec6ec9e46248ab4dce0bfb0428f, type: 3}
-    - time: 0.75
-      value: {fileID: 21300000, guid: f1dbf7e13f235f94ba41bd1feab2df51, type: 3}
-    - time: 1
-      value: {fileID: 21300000, guid: 4cea3ad78fc8bd44998000579bef2649, type: 3}
+      value: {fileID: 21300000, guid: 880a79421f6cfe843b1b7eebaaa036f6, type: 3}
+    - time: 0.5
+      value: {fileID: 21300000, guid: 880a79421f6cfe843b1b7eebaaa036f6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,21 +46,19 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 4cea3ad78fc8bd44998000579bef2649, type: 3}
-    - {fileID: 21300000, guid: 53255ec6ec9e46248ab4dce0bfb0428f, type: 3}
-    - {fileID: 21300000, guid: f1dbf7e13f235f94ba41bd1feab2df51, type: 3}
-    - {fileID: 21300000, guid: 4cea3ad78fc8bd44998000579bef2649, type: 3}
+    - {fileID: 21300000, guid: 880a79421f6cfe843b1b7eebaaa036f6, type: 3}
+    - {fileID: 21300000, guid: 880a79421f6cfe843b1b7eebaaa036f6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0166667
+    m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
